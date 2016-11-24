@@ -1,6 +1,6 @@
 <?php
 
-namespace Dravencms\FrontModule\Components\Primitive\CallToAction;
+namespace Dravencms\FrontModule\Components\Primitive\CallToAction\Bar;
 
 use Dravencms\Components\BaseControl;
 use Salamek\Cms\ICmsActionOption;

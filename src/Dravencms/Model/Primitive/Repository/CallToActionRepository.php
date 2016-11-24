@@ -3,7 +3,7 @@
  * Copyright (C) 2016 Adam Schubert <adam.schubert@sg1-game.net>.
  */
 
-namespace App\Model\Primitive\Repository;
+namespace Dravencms\Model\Primitive\Repository;
 
 use Nette;
 use Salamek\Cms\CmsActionOption;
