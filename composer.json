@@ -1,6 +1,6 @@
 {
   "name": "dravencms/primitive",
-  "type": "library",
+  "type": "dravencms-package",
   "description": "Primitive module for dravencms",
   "keywords": [
     "dravencms",
@@ -22,6 +22,19 @@
   "autoload": {
     "psr-0": {
       "Dravencms\\": "src/"
+    }
+  },
+  "extra": {
+    "dravencms": {
+      "configuration": {
+        "extensions": {
+          "timeline": "Dravencms\\Primitive\\DI\\PrimitiveExtension"
+        }
+      },
+      "scripts": {
+        "post-install": "Dravencms\\Primitive\\Script\\PostInstall",
+        "pre-uninstall": "Dravencms\\Primitive\\Script\\PreUninstall"
+      }
     }
   }
 }
