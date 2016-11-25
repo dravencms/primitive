@@ -2,7 +2,7 @@
 
 namespace Dravencms\FrontModule\Components\Primitive\CallToAction\Bar;
 
-use Dravencms\Components\BaseControl;
+use Dravencms\Components\BaseControl\BaseControl;
 use Salamek\Cms\ICmsActionOption;
 
 class Bar extends BaseControl
