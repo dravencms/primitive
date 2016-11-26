@@ -28,7 +28,7 @@
     "dravencms": {
       "configuration": {
         "extensions": {
-          "timeline": "Dravencms\\Primitive\\DI\\PrimitiveExtension"
+          "primitive": "Dravencms\\Primitive\\DI\\PrimitiveExtension"
         }
       },
       "scripts": {
