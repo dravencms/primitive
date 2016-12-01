@@ -11,7 +11,7 @@ use Salamek\Cms\ICmsActionOption;
 use Salamek\Cms\ICmsComponentRepository;
 use Salamek\Cms\Models\ILocale;
 
-class CallToActionRepository implements ICmsComponentRepository
+class CallToActionCmsRepository implements ICmsComponentRepository
 {
     /**
      * @param string $componentAction
