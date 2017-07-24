@@ -28,7 +28,7 @@ class CallToActionCmsRepository implements ICmsComponentRepository
      * @param ILocale $locale
      * @return null|CmsActionOption
      */
-    public function getActionOption($componentAction, array $parameters, ILocale $locale)
+    public function getActionOption($componentAction, array $parameters)
     {
         return null;
     }
