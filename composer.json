@@ -30,11 +30,12 @@
       "configuration": {
         "extensions": {
           "primitive": "Dravencms\\Primitive\\DI\\PrimitiveExtension"
+        },
+        "doctrine":{
+          "metadata": {
+            "Dravencms\\Model\\Primitive": "%appDir%/../vendor/dravencms/primitive/src/Dravencms/Model/Primitive"
+          }
         }
-      },
-      "scripts": {
-        "post-install": "Dravencms\\Primitive\\Script\\PostInstall",
-        "pre-uninstall": "Dravencms\\Primitive\\Script\\PreUninstall"
       }
     }
   }
