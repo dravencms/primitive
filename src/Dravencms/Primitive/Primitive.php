@@ -3,12 +3,15 @@
 namespace Dravencms\Primitive;
 
 
+use Nette\SmartObject;
+
 /**
  * Class Primitive
  * @package Dravencms\Primitive
  */
-class Primitive extends \Nette\Object
+class Primitive
 {
+    use SmartObject;
     public function __construct()
     {
     }
